@@ -21,7 +21,7 @@ namespace CCx
                 case 1:
                     break;
                 case 2:
-                    GameEntry.Event.Fire(this, AddDemageEventArgs.Create((SkillEntity)owner));
+                    GameEntry.Event.Fire(this, AddDemageEventArgs.Create(new SkillEvent(((SkillEntity)owner).GetOwner().GetData(), (SkillEntity)owner)));
                     break;
                 case 3:
                     break;
