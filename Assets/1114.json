@@ -1,0 +1,65 @@
+{
+    "groups": [
+        {
+            "name": "Group",
+            "tracks": [
+                {
+                    "actionClips": [
+                        {
+                            "spineObj": null,
+                            "action": "Skill",
+                            "startTime": 0.0,
+                            "length": 1.0,
+                            "name": "SpineAction",
+                            "$type": "CCx.SpineAction"
+                        }
+                    ],
+                    "name": "SpineTrack",
+                    "active": true,
+                    "isLocked": false,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "$type": "CCx.SpineTrack"
+                },
+                {
+                    "actionClips": [
+                        {
+                            "eventName": 2,
+                            "calculateType": 0,
+                            "calculateArgs": 0,
+                            "kill": 0,
+                            "startTime": 0.82,
+                            "length": 1.0,
+                            "name": "TriggerEvent",
+                            "$type": "CCx.TriggerEvent"
+                        }
+                    ],
+                    "name": "SignalTrack",
+                    "active": true,
+                    "isLocked": false,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "$type": "CCx.SignalTrack"
+                }
+            ],
+            "isCollapsed": false,
+            "active": true,
+            "isLocked": false,
+            "ActorId": 0
+        }
+    ],
+    "length": 1.0,
+    "viewTimeMin": 0.0,
+    "viewTimeMax": 5.0,
+    "rangeMin": 0.0,
+    "rangeMax": 5.0,
+    "$type": "CCx.SkillAsset"
+}
